@@ -8,7 +8,7 @@ import { BsViewList } from "react-icons/bs";
 import { BsPlusLg } from "react-icons/bs";
 import { BsCheckLg } from "react-icons/bs";
 
-function Sidebar() {
+const Sidebar = () => {
   let [open, setOpen] = useState(false);
 
   return (
@@ -29,7 +29,7 @@ function Sidebar() {
               <BsAppIndicator className="text-white" />
             </div>
             <h1 className="font-bold text-black text-[15px] ml-3">
-              Task Tracker
+              Tasks Tracker
             </h1>
           </div>
           <hr className="my-2" />
@@ -58,6 +58,6 @@ function Sidebar() {
       </div>
     </div>
   );
-}
+};
 
 export default Sidebar;
