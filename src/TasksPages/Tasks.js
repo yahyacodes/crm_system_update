@@ -1,6 +1,6 @@
 import React from "react";
 
-import Sidebar from "../Components/Sidebar";
+// import Sidebar from "../Components/Sidebar";
 
 import { BsViewList } from "react-icons/bs";
 import TaskItem from "./TaskItem";
@@ -8,7 +8,7 @@ import TaskItem from "./TaskItem";
 const Tasks = () => {
   return (
     <div className="flex justify-center min-h-screen">
-      <Sidebar />
+      {/* <Sidebar /> */}
       <div className="flex-1 max-w-5xl p-6">
         <div className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer text-black">
           <BsViewList />

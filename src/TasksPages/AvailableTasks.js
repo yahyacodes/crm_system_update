@@ -76,7 +76,7 @@ const AvailabeTasks = () => {
     />
   ));
 
-  return <div>{taskList}</div>;
+  return <ul>{taskList}</ul>;
 };
 
 export default AvailabeTasks;
